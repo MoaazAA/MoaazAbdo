@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+/* start top*/
+.first{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+.first .container{
+    background-color: red;
+    width: 180px;
+    border: solid white 8px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+/* end top*/
+
+/* start banner*/
+.ban{
+    width: 100%;
+    height: 750px;
+    background-image: url(../img/banner.png);
+    width: 100% 100%;
+    font-size: 200%;
+    color: white;
+    background-size:contain;
+    position: relative;
+}
+.ban .back{
+    width: 30%;
+    height: 250px;
+    background-color: orange;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.back h1{
+    padding-top: 25px;
+    
+}
+/* end banner */
+
+/* start Navbar */
+ nav{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 50px;
+}
+nav ul{
+    list-style: none;
+    position: relative;
+    line-height: 60px;
+}
+nav li{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+nav li:hover{
+    color: red;
+}
+/* End banner*/
+
+/* Start Header*/
+header{
+    width: 100%;
+    height: 750px;
+}
+header h1{
+    color: red;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+header h3{
+    margin-bottom: 10px;
+}
+header p{
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+header img{
+    width: 80%;
+}
+/* End Header*/
+
+/* Start Last*/
+.last{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+    line-height: 50px;
+}
+.last h1,h2{
+    margin-top: 30px;
+}
+/* End Last */
+
+/* Start Footer */
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    
+}
+/* End Footer*/
